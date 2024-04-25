@@ -10,8 +10,6 @@ function guardarDatos() {
     var direccion = document.getElementById("direccion").value;
     var fechaNacimiento = document.getElementById("fechaNacimiento").value;
     
-    // Aquí puedes realizar cualquier acción con los datos ingresados, como enviarlos a un servidor
-
     var responseMessage = document.getElementById("responseMessage");
     responseMessage.innerText = "Datos guardados:\nNombre: " + nombre + "\nEmail: " + email + "\nTeléfono: " + telefono + "\nDirección: " + direccion + "\nFecha de Nacimiento: " + fechaNacimiento;
 }
